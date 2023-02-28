@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Curso Git y GitHub'),
+      home: MyHomePage(title: 'Curso Git y GitHub - Colaborador Opensource'),
     );
   }
 }
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Aumentó el número',
+        tooltip: 'Incrementar',
         child: Icon(Icons.add),
       ), 
     );
